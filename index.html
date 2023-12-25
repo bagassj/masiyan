@@ -9,27 +9,48 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">LOGO</a>
-            </div>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" aria-label="Main navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo.png" alt="" width="120" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2">Home</a></li>
-                <li><a href="#" class="nav-link px-2">About</a></li>
-                <li><a href="#" class="nav-link px-2">Products</a></li>
-                <li><a href="#" class="nav-link px-2">Blogs</a></li>
-            </ul>
-        
-            <div class="col-md-3 text-end">
-                <ul class="nav justify-content-end">
-                    <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-whatsapp"></i></a></li>
-                    <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-instagram"></i></a></li>
+            <div class="navbar-collapse offcanvas-collapse justify-content-center w-100" id="navbarsExampleDefault">
+                <ul class="nav page">
+                    <li><a href="#" class="nav-link px-2">Home</a></li>
+                    <li><a href="#" class="nav-link px-2">About</a></li>
+                    <li><a href="#" class="nav-link px-2">Products</a></li>
+                    <li><a href="#" class="nav-link px-2">Blogs</a></li>
                 </ul>
+                <div class="socmed ms-auto text-end">
+                    <ul class="nav justify-content-center">
+                        <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-whatsapp"></i></a></li>
+                        <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
             </div>
-        </header>
+        </div>
+    </nav>
+    
+    <div class="nav-scroller bg-light shadow-sm">
+        <nav class="nav" aria-label="Secondary navigation">
+            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+            <a class="nav-link" href="#">
+                Friends
+                <span class="badge text-bg-light rounded-pill align-text-bottom">27</span>
+            </a>
+            <a class="nav-link" href="#">Explore</a>
+            <a class="nav-link" href="#">Suggestions</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+        </nav>
     </div>
 
     <div id="carousel" class="carousel slide mb-6" data-bs-ride="carousel" style="height: 100vh;">
@@ -40,13 +61,13 @@
         </div>
         <div class="carousel-inner w-100 h-100">
             <div class="carousel-item w-100 h-100 active">
-                <img src="assets/img/c1.jpg" class="object-fit-cover w-100" alt="...">
+                <img src="assets/img/Carou-1.png" class="object-fit-cover w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/c2.jpg" class="object-fit-cover w-100" alt="...">
+                <img src="assets/img/Carou-2.png" class="object-fit-cover w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/c3.jpg" class="object-fit-cover w-100" alt="...">
+                <img src="assets/img/Carou-3.png" class="object-fit-cover w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -70,7 +91,7 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <img src="assets/img/c1.jpg" class="object-fit-cover w-100" alt="..." style="width: 500px; height: 500px;">
+                <img src="assets/img/IMG-20231224-WA0018.jpg" class="object-fit-cover w-100" alt="..." style="width: 500px; height: 500px;">
             </div>
         </div>
 
@@ -79,32 +100,52 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Burger King.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Coca-Cola.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Domino's Pizza.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Dunkin'.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Heinz.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Kellogs.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/1996.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/AGHARA.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/ALFANH.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/ALLENDINNA.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/ARETTA.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/BRK.png" class="img-fluid" alt=""></div></div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=KFC.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=McDonald's.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Nestle.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Nutella.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Pepsi.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Pringles.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/CSC.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/DC.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/DIC.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/Diskop.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/GLANCE.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/HCF.png" class="img-fluid" alt=""></div></div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Snickers.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Starbucks.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Subway.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Burger King.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Coca-Cola.png" class="img-fluid" alt=""></div></div>
-                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Style=Domino's Pizza.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/HH.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/IjenG.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/KAYASA.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/KBA.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/KC.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/KF.png" class="img-fluid" alt=""></div></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/MM.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/MOODM.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/ORDNRY.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/PERIDOT.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/POURING.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/RAISA.png" class="img-fluid" alt=""></div></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/RB.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/SC.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/SEKECA.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/UNEJ.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/TR.png" class="img-fluid" alt=""></div></div>
+                        <div class="col-sm-2"><div class="img-box"><img src="assets/img/Partnership/UR.png" class="img-fluid" alt=""></div></div>
                     </div>
                 </div>
             </div>
@@ -121,7 +162,7 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <img src="assets/img/c1.jpg" class="object-fit-cover w-100" alt="..." style="width: 500px; height: 500px;">
+                <img src="assets/img/IMG-20231224-WA0012.jpg" class="object-fit-cover w-100" alt="..." style="width: 500px; height: 500px;">
             </div>
         </div>
     </div>
@@ -136,7 +177,7 @@
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#" class="image">
-                            <img class="object-fit-cover" src="assets/img/c2.jpg">
+                            <img class="object-fit-cover" src="assets/img/Prod-1.png">
                         </a>
                         <!-- <span class="product-discount-label">-33%</span> -->
                         <ul class="product-links">
@@ -154,7 +195,7 @@
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#" class="image">
-                            <img class="object-fit-cover" src="assets/img/c2.jpg">
+                            <img class="object-fit-cover" src="assets/img/Prod-2.png">
                         </a>
                         <!-- <span class="product-discount-label">-33%</span> -->
                         <ul class="product-links">
@@ -172,7 +213,7 @@
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#" class="image">
-                            <img class="object-fit-cover" src="assets/img/c2.jpg">
+                            <img class="object-fit-cover" src="assets/img/Prod-3.png">
                         </a>
                         <!-- <span class="product-discount-label">-33%</span> -->
                         <ul class="product-links">
@@ -190,7 +231,7 @@
                 <div class="product-grid">
                     <div class="product-image">
                         <a href="#" class="image">
-                            <img class="object-fit-cover" src="assets/img/c2.jpg">
+                            <img class="object-fit-cover" src="assets/img/Prod-4.png">
                         </a>
                         <!-- <span class="product-discount-label">-33%</span> -->
                         <ul class="product-links">
@@ -214,7 +255,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
                 <div class="card shadow-sm">
-                    <img src="assets/img/c3.jpg" class="bd-placeholder-img card-img-top object-fit-cover w-100 h-100" alt="...">
+                    <img src="assets/img/IMG-20231224-WA0027.jpg" class="bd-placeholder-img card-img-top object-fit-cover w-100 h-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum</h5>
                         <p class="card-text text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, ducimus dolore. Eaque sed aperiam maxime praesentium veritatis a doloremque vel, ratione dolores quis? Aliquam vel culpa unde incidunt expedita at.</p>
@@ -226,7 +267,7 @@
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <img src="assets/img/c3.jpg" class="bd-placeholder-img card-img-top object-fit-cover w-100 h-100" alt="...">
+                    <img src="assets/img/IMG-20231224-WA0038.jpg" class="bd-placeholder-img card-img-top object-fit-cover w-100 h-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum</h5>
                         <p class="card-text text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, ducimus dolore. Eaque sed aperiam maxime praesentium veritatis a doloremque vel, ratione dolores quis? Aliquam vel culpa unde incidunt expedita at.</p>
@@ -238,7 +279,7 @@
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <img src="assets/img/c3.jpg" class="bd-placeholder-img card-img-top object-fit-cover w-100 h-100" alt="...">
+                    <img src="assets/img/IMG-20231224-WA0019.jpg" class="bd-placeholder-img card-img-top object-fit-cover w-100 h-100" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lorem ipsum</h5>
                         <p class="card-text text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, ducimus dolore. Eaque sed aperiam maxime praesentium veritatis a doloremque vel, ratione dolores quis? Aliquam vel culpa unde incidunt expedita at.</p>
@@ -251,21 +292,35 @@
         </div>
     </div>
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="footer-pc d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Mas Iyan - Arabica Coffee Farmers</p>
         
-            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                LOGO
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="assets/img/Logo.png" alt="" width="180" class="d-inline-block align-text-top">
             </a>
         
-            <ul class="nav col-md-4 justify-content-end">
+            <ul class="nav page col-md-4 justify-content-end">
                 <li><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
                 <li><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
                 <li><a href="#" class="nav-link px-2 text-body-secondary">Products</a></li>
                 <li><a href="#" class="nav-link px-2 text-body-secondary">Blogs</a></li>
             </ul>
         </footer>
+        <footer class="footer-mobile d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Mas Iyan - Arabica Coffee Farmers</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none w-100">
+                <img src="assets/img/Logo.png" alt="" width="180" class="d-inline-block align-text-top">
+            </a>
+            
+            <ul class="col-md-4 nav socmed mt-auto">
+                <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-whatsapp"></i></a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#" class="nav-link px-2 link-secondary"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </footer>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="assets/js/navbar.js"></script>
 </html>
